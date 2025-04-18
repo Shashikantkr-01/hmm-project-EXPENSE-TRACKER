@@ -1,0 +1,40 @@
+/* Custom Scrollbar for Expense List */
+#expense-list::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  #expense-list::-webkit-scrollbar-thumb {
+    background-color: #6366f1; /* Tailwind Indigo-500 */
+    border-radius: 4px;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #c3ecf5, #fcd9d9);
+  }
+  
+  /* Card shadow animation */
+  .card {
+    transition: box-shadow 0.3s ease;
+  }
+  .card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Button glow effect */
+  .btn-glow {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 0 rgba(59, 130, 246, 0.4);
+  }
+  .btn-glow:hover {
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.8), 0 0 25px rgba(59, 130, 246, 0.4);
+  }
+  
+  /* Rounded corner list item with hover */
+  .expense-item {
+    transition: transform 0.2s ease;
+  }
+  .expense-item:hover {
+    transform: scale(1.02);
+    background-color: #e0f2fe; /* Tailwind Sky-100 */
+  }
+  
